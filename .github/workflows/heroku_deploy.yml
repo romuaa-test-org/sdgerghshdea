@@ -18,8 +18,7 @@ jobs:
             heroku_email: ${{ secrets.HEROKU_EMAIL }}
             region: eu
             usedocker: true
-            appdir: frontend_react_with_rest
             docker_build_args: |
               BACKEND_API_URL
           env:
-            BACKEND_API_URL: 'http://localhost'
+            BACKEND_API_URL: ''
