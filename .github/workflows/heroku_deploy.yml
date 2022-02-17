@@ -22,4 +22,4 @@ jobs:
             docker_build_args: |
               BACKEND_API_URL
           env:
-            BACKEND_API_URL: ''
+            BACKEND_API_URL: 'http://localhost'
